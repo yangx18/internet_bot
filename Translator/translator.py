@@ -64,8 +64,6 @@ class Window(QWidget):
 		self.LineEdit2 = QLineEdit()
 
 		self.translateButton = QPushButton()
-
-
 		self.translateButton.setText('Youdao Translate')
 
 		self.grid = QGridLayout()
@@ -84,7 +82,7 @@ class Window(QWidget):
 
 		self.yd_translate = youdao()
 
-	def translate(self, api='youdao'):
+	def translate(self, api):
 		word = self.LineEdit1.text()
 		if not word:
 			return
