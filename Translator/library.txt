@@ -1,0 +1,4 @@
+js
+PyQt5
+requests
+js2py
